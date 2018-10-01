@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WebSockets - Simple chat</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/chat.css">
+    </head>
+    <body>
+        <!-- форма для отправки сообщений -->
+        
+
+        <!-- здесь будут появляться входящие сообщения -->
+        <form id="nameForm">
+            <input type="text" id="name">
+            <span>имя введи, а</span>
+        </form>
+        <div id="subscribe" class="chat-form">
+            <h2>Здесь чатик</h2>
+            <form name="publish" class="chatik invisible">
+                <span class="typer invisible"><span id="typerName"></span> пишет..</span>
+                <input type="text" name="message" id="message">
+                <button type="button" id="sticker">S</button>
+                <input type="submit" value="Отправить">
+            </form>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="chat-frontend.js"></script>
+    </body>
+</html>

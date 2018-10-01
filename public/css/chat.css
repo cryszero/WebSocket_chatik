@@ -1,0 +1,41 @@
+.chatik {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.chat-form {
+    position: relative;
+    max-width: 600px;
+    padding: 30px;
+    background: #f3f3f3;
+    overflow: hidden;
+}
+
+.chat-form h2 {
+    font-size: 24px;
+    margin: 20px;
+}
+
+
+.message {
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    background: rebeccapurple;
+    border-radius: 20px;
+}
+
+.message--mine {
+    background: green;
+    text-align: right;
+
+}
+
+.message--mine .name {
+    display: none;
+}
+
+.invisible {
+    display: none;
+}
